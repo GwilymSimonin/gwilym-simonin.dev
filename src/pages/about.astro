@@ -1,5 +1,8 @@
 ---
+import '../styles/global.css';
+
 const pageTitle = "About Me";
+
 const identity = {
   firstName: "Gwilym",
   country: "France",
@@ -12,10 +15,6 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 const happy = true;
 const finished = false;
 const goal = 3;
-
-const skillColor = "navy";
-const fontWeight = "bold";
-const textCase = "uppercase";
 ---
 
 <html lang="en">
@@ -31,9 +30,7 @@ const textCase = "uppercase";
               font-size: 4rem;
             }
             .skill {
-                color: var(--skillColor);
-                font-weight: var(--fontWeight);
-                text-transform: var(--textCase);
+              color: navy
             }
           </style>
 	</head>
